@@ -2,61 +2,61 @@
   {
     "icon": "icon-python",
     "title": "Python",
-    "path": "python.html",
+    "path": "python/",
     "background": "bg-[#436b97]"
   },
   {
     "icon": "icon-vim",
     "title": "Vim",
-    "path": "vim.html",
+    "path": "vim/",
     "background": "bg-[#46933f]"
   },
   {
     "icon": "icon-javascript",
     "title": "JavaScript",
-    "path": "javascript.html",
+    "path": "javascript/",
     "background": "bg-[#ebd94e]"
   },
   {
     "icon": "icon-bash",
     "title": "Bash",
-    "path": "bash.html",
+    "path": "bash/",
     "background": "bg-[#3e4548]"
   },
   {
     "icon": "icon-regex",
     "title": "RegEX",
-    "path": "regex.html",
+    "path": "regex/",
     "background": "bg-[#e56d2d]"
   },
   {
     "icon": "icon-sed",
     "title": "Sed",
-    "path": "sed.html",
+    "path": "sed/",
     "background": "bg-red-400"
   },
   {
     "icon": "icon-golang",
     "title": "Golang",
-    "path": "golang.html",
+    "path": "golang/",
     "background": "bg-[#4ba4cc]"
   },
   {
     "icon": "icon-html",
     "title": "HTML",
-    "path": "html.html",
+    "path": "html/",
     "background": "bg-[#cc5534]"
   },
   {
     "icon": "icon-java",
     "title": "Java",
-    "path": "java.html",
+    "path": "java/",
     "background": "bg-[#d33731]"
   },
   {
     "icon": "icon-postgres",
     "title": "PostgreSQL",
-    "path": "postgres.html",
+    "path": "postgres/",
     "background": "bg-[#3d6488]"
   }
 ]
