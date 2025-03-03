@@ -14,7 +14,9 @@
     <meta name="description" content="<%- page_description() %>"/>
 
     <!-- for social -->
-    <meta property="og:url" content="<%- url_for(url) %>"/>
+    <!-- <meta property="og:url" content="<%- url_for(url) %>"/> -->
+    <!-- 修复canonical -->
+    <meta property="og:url" content="<%- url_for(url.replace('index.html', '')) %>"/>
     <meta property="og:title" content="<%- page_title() %>"/>
     <meta property="og:site_name" content="<%- config.title %>"/>
     <meta property="og:description" content="<%- page_description() %>"/>
