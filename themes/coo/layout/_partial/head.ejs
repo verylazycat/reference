@@ -36,7 +36,9 @@
     <link rel="icon shortcut" type="image/png" href="/images/favicon.png?v=1"/>
 
     <!-- misc -->
-    <link rel="canonical" href="<%- url_for(url) %>"/>
+    <!-- <link rel="canonical" href="<%- url_for(url) %>"/> -->
+    <!-- 修复canonical,去掉index.html -->
+    <link rel="canonical" href="<%- url_for(url.replace('index.html', '')) %>"/>
     <link rel="prefetch" href="<%- url_for(config.url) %>"/>
     <link rel="prerender" href="<%- url_for(config.url) %>"/>
     <link rel="alternate" href="/atom.xml" title="<%- config.title %>" type="application/atom+xml"/>
